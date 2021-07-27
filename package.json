@@ -4,7 +4,7 @@
   "description": "This is a CRUD application done with Node.js, PostgreSQL &amp; Docker",
   "main": "index.js",
   "scripts": {
-    "test": "jest --env node"
+    "test": "jest --env node --detectOpenHandles"
   },
   "repository": {
     "type": "git",
